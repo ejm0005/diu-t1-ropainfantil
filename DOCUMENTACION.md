@@ -79,6 +79,23 @@ graph TD
 #### Favoritos
 ![Wireframe de favoritos](capturas/wireframes/favoritos.png)
 ### 3.3 Guía de estilo Material Design 3
+#### Estilo Claro
+| Pareja de Tokens M3 | Color/OnColor | Ratio de Contraste | Cumplimiento WCAG AA |
+| :--- | :--- | :--- | :--- |
+| **Primary / On Primary** | #32618D / #FFFFFF | **5.4 : 1** | Sí |
+| **Secondary / On Secondary** | #526070 / #FFFFFF | **6.1 : 1** | Sí |
+| **Tertiary / On Tertiary** | #695779 / #FFFFFF | **6.3 : 1** | Sí |
+| **Surface / On Surface** | #F8F9FF / #191C20 | **14.2 : 1** | Sí |
+| **Error / On Error** | #BA1A1A / #FFFFFF | **5.9 : 1** | Sí |  
+
+#### Estilo Oscuro
+| Pareja de Tokens M3 | Color/OnColor | Ratio de Contraste | Cumplimiento WCAG AA |
+| :--- | :--- | :--- | :--- |
+| **Primary / On Primary** | #9ECAFC / #003355 | **7.8 : 1** | Sí |
+| **Secondary / On Secondary** | #BAC8DA / #243240 | **8.0 : 1** | Sí |
+| **Tertiary / On Tertiary** | #D5BEE5 / #3A2A48 | **7.9 : 1** | Sí |
+| **Surface / On Surface** | #101418 / #E0E2E8 | **13.5 : 1** | Sí |
+| **Error / On Error** | #FFB4AB / #690005 | **8.2 : 1** | Sí |
 ### 3.4 Prototipo de alta fidelidad
 
 ## 4. Validación y pruebas
