@@ -30,8 +30,54 @@ El público principal al que va dirigido esta aplicación es a madres, padres, a
 * __Borrar sin querer un producto del carrito:__ Mostrar un aviso flotante con un botón de Deshacer cada vez que se borre un artículo para poder recuperarlo al instante.
 
 ## 3. Diseño de la interfaz
-### 3.1 Mapa de navegación                   (bloque ```mermaid)
+### 3.1 Mapa de navegación
+```mermaid
+graph TD
+    Login["Login"]
+    Inicio["Inicio"]
+    Catalogo["Catálogo"]
+    Detalles["Detalles"]
+    Carrito["Carrito"]
+    Checkout["Checkout"]
+    Confirmacion["Confirmación"]
+    Favoritos["Favoritos"]
+
+    Login -->|Inicia sesión| Inicio
+    Inicio -->|Seleccionar categoría| Catalogo
+    Inicio -->|Acceder| Carrito
+    Inicio -->|Acceder| Favoritos
+    Catalogo -->|Seleccionar| Detalles
+    Catalogo -->|Volver atrás| Inicio
+    Favoritos -->|Seleccionar| Detalles
+    Favoritos -->|Volver atrás| Inicio
+    Detalles -->|Añadir| Carrito
+    Carrito -->|Comprar todo| Checkout
+    Carrito -->|Seleccionar producto| Detalles
+    Carrito -->|Volver atrás| Inicio
+    Checkout -->|Confirmar y pagar| Confirmacion
+    Checkout -->|Volver atrás| Carrito
+    Confirmacion -->|Reiniciar| Inicio
+```
+
+
+
 ### 3.2 Wireframes
+#### Login
+![Wireframe de login](capturas/wireframes/login.png)
+#### Inicio
+![Wireframe de inicio](capturas/wireframes/inicio.png)
+#### Catálogo
+![Wireframe de catálogo](capturas/wireframes/catálogo.png)
+#### Detalle de producto
+![Wireframe de detalle de producto](capturas/wireframes/detalles.png)
+#### Carrito
+![Wireframe de carrito](capturas/wireframes/carrito.png)
+#### Checkout
+![Wireframe de checkout](capturas/wireframes/checkout.png)
+#### Confirmación
+![Wireframe de confirmación](capturas/wireframes/confirmación.png)
+#### Favoritos
+![Wireframe de favoritos](capturas/wireframes/favoritos.png)
 ### 3.3 Guía de estilo Material Design 3
 ### 3.4 Prototipo de alta fidelidad
 
