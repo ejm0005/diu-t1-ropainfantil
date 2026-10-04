@@ -134,7 +134,12 @@ Las tareas que he encargado a los usuarios testeadores son las siguientes:
 | Diego | Tarea 2 | Fracaso | 26 segundos | "No me deja cambiar el color de la prenda" |
 | Diego | Tarea 3 | Fracaso | 29 segundos | "No funciona los botones de tallas |
 ### 4.3 Iteraciones y mejoras               (antes/después)
-
+#### Antes
+![antes](capturas/iteracion/antes.png)
+#### Después
+![despues](capturas/iteracion/despues.png)
+#### Justificación
+Después de que los usuarios de prueba detectasen errores a la hora de seleccionar tallas y color de la ropa en el carrusel de imagenes, he creado 3 frames adicionales de la pantalla de detalles que contengan las distintas variantes de los componentes afectados. Después de esto, al probar nuevamente, funciona correctamente 
 
 ## 5. Entrega y documentación final
 ### 5.1 Justificación del diseño propuesto
