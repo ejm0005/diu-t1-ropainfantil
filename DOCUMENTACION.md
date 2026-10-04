@@ -119,9 +119,22 @@ graph TD
 ![Prototipo de detalle de producto en modo oscuro](capturas/prototipo/detallesoscuro.png)
 
 ## 4. Validación y pruebas
-### 4.1 Metodología                          (mín. 3 tareas y métricas)
+### 4.1 Metodología
+Las tareas que he encargado a los usuarios testeadores son las siguientes:
+* __Tarea 1:__ Comprar Vestido Estampado colores claros talla 3 años.
+* __Tarea 2:__ Comprar Vestido Estampado colores oscuros talla 4 años.
+* __Tarea 3:__ Comprar Vestido Estampado colores claros talla 4 años.
 ### 4.2 Resultados                           (tabla con mín. 2 participantes)
+| Usuario | Tarea | Éxito | Tiempo | Errores |
+| --- | --- | --- | --- | --- |
+| Paula | Tarea 1 | Éxito | 10 segundos | "Hubiera tardado menos si me hubiera dado cuenta de la guía de tallas" |
+| Paula | Tarea 2 | Fracaso | 20 segundos | "No me dejaba seleccionar otra prenda que no sea el conjunto claro" |
+| Paula | Tarea 3 | Fracaso | 20 segundos | "No funcionaba el botón 4 años" |
+| Diego | Tarea 1 | Éxito | 14 segundos | "Ningún problema, tardé un poco al desconocer la interfaz" |
+| Diego | Tarea 2 | Fracaso | 26 segundos | "No me deja cambiar el color de la prenda" |
+| Diego | Tarea 3 | Fracaso | 29 segundos | "No funciona los botones de tallas |
 ### 4.3 Iteraciones y mejoras               (antes/después)
+
 
 ## 5. Entrega y documentación final
 ### 5.1 Justificación del diseño propuesto
