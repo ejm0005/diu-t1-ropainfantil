@@ -97,6 +97,26 @@ graph TD
 | **Surface / On Surface** | #101418 / #E0E2E8 | **13.5 : 1** | Sí |
 | **Error / On Error** | #FFB4AB / #690005 | **8.2 : 1** | Sí |
 ### 3.4 Prototipo de alta fidelidad
+#### Login
+![Prototipo de login](capturas/prototipo/login.png)
+#### Inicio
+![Prototipo de inicio](capturas/prototipo/inicio.png)
+#### Catálogo
+![Prototipo de catálogo](capturas/prototipo/catálogo.png)
+#### Detalle de producto
+![Prototipo de detalle de producto](capturas/prototipo/detalles.png)
+#### Carrito
+![Prototipo de carrito](capturas/prototipo/carrito.png)
+#### Checkout
+![Prototipo de checkout](capturas/prototipo/checkout.png)
+#### Confirmación
+![Prototipo de confirmación](capturas/prototipo/confirmación.png)
+#### Favoritos
+![Prototipo de favoritos](capturas/prototipo/favoritos.png)
+#### Inicio en Modo Oscuro
+![Prototipo de inicio en modo oscuro](capturas/prototipo/iniciooscuro.png)
+#### Detalle de producto en modo oscuro
+![Prototipo de detalle de producto en modo oscuro](capturas/prototipo/detallesoscuro.png)
 
 ## 4. Validación y pruebas
 ### 4.1 Metodología                          (mín. 3 tareas y métricas)
