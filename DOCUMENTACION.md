@@ -143,8 +143,24 @@ Después de que los usuarios de prueba detectasen errores a la hora de seleccion
 
 ## 5. Entrega y documentación final
 ### 5.1 Justificación del diseño propuesto
+He propuesto un diseño de aplicación minimalista para evitar la fatiga visual a nuestro publico objetivo (padres y abuelos que posiblemente no entiendan mucho de tecnología) y conseguir una experiencia de usuario sencilla y fluida al tener elementos muy simplificados. He apostado por colores azules suaves ya que estos transmiten confianza, seguridad, tranquilidad y limpieza, aparte de que aporta un toque tierno, alegre y acogedor, cosas muy características de la infancia. En cuanto a la tipografía, he apostado por utilizar roles personalizados de Roboto ya que esta tipografía es muy sencilla y facil de leer en comparación con otro tipo de tipografía, aparte de que es facilmente personalizable para ciertos elementos de la interfaz.  
+
 ### 5.2 Recomendaciones y pasos a seguir
+* Ampliaría el mapeo del modo oscuro ya que aunque ya estan formalizado en estilos.json es bueno testar el comportamiento de los contenedores en entornos de baja luminosidad y oscuros.
+* Realizaría pruebas de usabilidad con lectores de pantalla para verificar que los elementos de la pantalla como textos e imagenes mantienen un orden lógico
+* Incluiría animaciones de Smart Animate avanzadas para simular el estado en elementos como los corazones en favoritos o transiciones entre pantallas
 
 ## 6. Referencias bibliográficas              (mín. 4, APA 7, exportadas desde Zotero)
+GOCCO - Valoraciones y reseñas. (n.d.). App Store. Retrieved October 4, 2026, from https://apps.apple.com/es/app/gocco/id1178614713?see-all=reviews&platform=iphone
 
-Palabra del día: 29
+Opiniones sobre boboli.es/es: Lee las 4073 valoraciones sobre boboli.es/es. (n.d.). Nota total: Excelente para boboli.es/es. Retrieved October 4, 2026, from https://www.trustedshops.es/evaluacion/info_X32A5CA30C0352BA411CF5B403189FF1D.html?stars=3
+
+Tienda Online Boboli. (n.d.). Boboli.es. Retrieved October 4, 2026, from https://www.boboli.es/es/
+
+Trustindex. (n.d.). Patpat reviews. Trustindex.Io. Retrieved October 4, 2026, from https://www.trustindex.io/reviews/eur.patpat.com
+
+(N.d.). Patpat.com. Retrieved October 4, 2026, from https://www.patpat.com/es/products/christmas-family-matching-long-sleeves-very-merry-green-tops-allover-pattern-pants-pajamas-sets-flame-resistant-mediumspringgreen
+
+Grau, B. (2024, mayo 13). ¿Por qué es importante el diseño centrado en el usuario: cómo mejorar su experiencia en aplicaciones y sitios web? ciclick · web solutions. https://es.ciclick.net/importancia-diseno-centrado-en-el-usuario/
+
+## Palabra del día: 29
