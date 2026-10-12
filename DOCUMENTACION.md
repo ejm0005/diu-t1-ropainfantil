@@ -5,8 +5,8 @@
 El diseño centrado en el usuario es importante ya que cuando el programa esta pensado en las necesidades especificas del usuario, este aumenta su satisfacción ya que pueden utilizar una aplicación en la que encuentran los que buscan facilmente, lo que hará que el usuario tienda a volver a utilizar la aplicación en una futura ocasión, mejorando la retención. Otra cuestión por la que el diseño centrado en el usuario es importante es que  este nos ayuda a identificar y corregir problemas antes de que afecten a un gran número de usuarios, lo que puede ayudar a evitar el riesgo de fracaso del producto.
 ### 1.2 Objetivos y metas del proyecto
 * Posibilidad de realizar una compra en menos de un minuto y medio
-* Aumentar la claridad visual
-* Facilitar la navegación mediante menus sencillos y descriptivos
+* Acceder al catálogo en menos de 25 segundos
+* Iniciar sesión en menos de 10 segundos
 ### 1.3 Beneficios esperados
 __Para el usuario:__ Una aplicación facil de usar y eficaz en la que hacer sus compras de manera sencilla.  
 __Para el negocio:__ Mejorar la retención de usuarios, ya que estos se sentirán satisfechos con un diseño de interfaz sencillo de usar.
@@ -15,8 +15,14 @@ __Para el negocio:__ Mejorar la retención de usuarios, ya que estos se sentirá
 ### 2.1 Datos demográficos y segmentación
 El público principal al que va dirigido esta aplicación es a madres, padres, abuelos y personas que compran regalos a sus niños, pero que carecen de tiempo suficiente, compran desde el movil y tienen bastantes dudas con las tallas.
 ### 2.2 Personas (Nombre, edad, contexto, objetivo, frustración)                            (#### Persona 1: … y #### Persona 2: …)
-* __Persona 1:__ Noelia, 38 años, A punto de traer al mundo a su primer hijo, Comprar las primeras prendas de su futuro hijo, Está muy confusa con respecto a la ropa que debe comprar.
-* __Persona 2:__ Paco, 77 años, Tiene 2 nietos cuyos cumples están a la vuelta de la esquina, Comprar ropa como regalo para sus nietos, No está muy familiarizado con las tecnologías y la compra online por lo que le resulta muy complicado y confuso y no quiere equivocarse con las tallas.
+#### Persona 1:
+* __Contexto:__ Noelia de 38 años de edad, a punto de traer al mundo a su primer hijo
+* __Objetivo:__ Comprar las primeras prendas de su futuro hijo
+* __Frustración:__ Está muy confusa con respecto a la ropa que debe comprar.
+#### Persona 2:
+* __Contexto:__ Paco de 77 años de edad, tiene 2 nietos cuyos cumples están a la vuelta de la esquina
+* __Objetivo:__ Comprar ropa como regalo para sus nietos
+* __Frustración:__ No está muy familiarizado con las tecnologías y la compra online por lo que le resulta muy complicado y confuso y no quiere equivocarse con las tallas.
 ### 2.3 Análisis de la competencia           (tabla con mín. 3 apps)
 | Aplicación | Qué hacen bien | Qué hacen mal | Qué me llevo |
 | :--- | :--- | :--- | :--- |
@@ -63,21 +69,21 @@ graph TD
 
 ### 3.2 Wireframes
 #### Login
-![Wireframe de login](capturas/wireframes/login.png)
+![Wireframe de login](capturas/wireframes/Login.png)
 #### Inicio
-![Wireframe de inicio](capturas/wireframes/inicio.png)
+![Wireframe de inicio](capturas/wireframes/Inicio.png)
 #### Catálogo
-![Wireframe de catálogo](capturas/wireframes/catálogo.png)
+![Wireframe de catálogo](capturas/wireframes/Catálogo.png)
 #### Detalle de producto
-![Wireframe de detalle de producto](capturas/wireframes/detalles.png)
+![Wireframe de detalle de producto](capturas/wireframes/Detalles.png)
 #### Carrito
-![Wireframe de carrito](capturas/wireframes/carrito.png)
+![Wireframe de carrito](capturas/wireframes/Carrito.png)
 #### Checkout
-![Wireframe de checkout](capturas/wireframes/checkout.png)
+![Wireframe de checkout](capturas/wireframes/Checkout.png)
 #### Confirmación
-![Wireframe de confirmación](capturas/wireframes/confirmación.png)
+![Wireframe de confirmación](capturas/wireframes/Confirmación.png)
 #### Favoritos
-![Wireframe de favoritos](capturas/wireframes/favoritos.png)
+![Wireframe de favoritos](capturas/wireframes/Favoritos.png)
 ### 3.3 Guía de estilo Material Design 3
 #### Estilo Claro
 | Pareja de Tokens M3 | Color/OnColor | Ratio de Contraste | Cumplimiento WCAG AA |
@@ -96,27 +102,56 @@ graph TD
 | **Tertiary / On Tertiary** | #D5BEE5 / #3A2A48 | **7.9 : 1** | Sí |
 | **Surface / On Surface** | #101418 / #E0E2E8 | **13.5 : 1** | Sí |
 | **Error / On Error** | #FFB4AB / #690005 | **8.2 : 1** | Sí |
+
+#### Tabla de Tipografía
+
+La familia tipográfica seleccionada es Roboto. En la tabla se detallan los roles tipográficos utilizados en la interfaz, indicando el tamaño, interlineado y peso para garantizar la jerarquía visual y la legibilidad.
+
+| Rol | Tamaño (sp) | Interlineado (sp) | Peso | Ejemplo de Uso |
+| :--- | :---: | :---: | :---: | :--- |
+| **headlineSmall** | 24 | 32 | Regular (400) | Títulos principales de pantallas o secciones destacadas |
+| **titleLarge** | 22 | 28 | Regular (400) | Encabezados de tarjetas o modales importantes |
+| **titleMedium** | 16 | 24 | Medium (500) | Subtítulos de componentes |
+| **bodyLarge** | 16 | 24 | Regular (400) | Texto general de párrafos y descripciones |
+| **labelLarge** | 14 | 20 | Medium (500) | Etiquetas en botones, pestañas y campos de formulario |
+
+---
+
+#### Rejilla y Áreas Táctiles
+
+El sistema de layout y espaciado está construido sobre una base de 8 píxeles, asegurando una alineación coherente y una estructura visual ordenada en dispositivos móviles.
+
+##### Rejilla y Márgenes
+* **Base de espaciado:** 8px
+* **Columnas:** 4 columnas para la disposición de elementos en pantalla.
+* **Margen de pantalla:** 16px en los laterales para evitar que el contenido colisione con los bordes del dispositivo.
+
+##### Áreas Táctiles
+Para garantizar la accesibilidad y una experiencia de usuario fluida, evitando errores de interacción en pantallas táctiles:
+
+* **Área táctil mínima:** 48x48px obligatorios para todos los elementos interactivos (botones, iconos enlazados, chips de filtrado, etc.), incluso cuando el elemento visual sea ligeramente más pequeño.
+
 ### 3.4 Prototipo de alta fidelidad
 #### Login
-![Prototipo de login](capturas/prototipo/login.png)
+![Prototipo de login](capturas/prototipo/Login.png)
 #### Inicio
-![Prototipo de inicio](capturas/prototipo/inicio.png)
+![Prototipo de inicio](capturas/prototipo/Inicio.png)
 #### Catálogo
-![Prototipo de catálogo](capturas/prototipo/catálogo.png)
+![Prototipo de catálogo](capturas/prototipo/Catálogo.png)
 #### Detalle de producto
-![Prototipo de detalle de producto](capturas/prototipo/detalles.png)
+![Prototipo de detalle de producto](capturas/prototipo/Detalles.png)
 #### Carrito
-![Prototipo de carrito](capturas/prototipo/carrito.png)
+![Prototipo de carrito](capturas/prototipo/Carrito.png)
 #### Checkout
-![Prototipo de checkout](capturas/prototipo/checkout.png)
+![Prototipo de checkout](capturas/prototipo/Checkout.png)
 #### Confirmación
-![Prototipo de confirmación](capturas/prototipo/confirmación.png)
+![Prototipo de confirmación](capturas/prototipo/Confirmación.png)
 #### Favoritos
-![Prototipo de favoritos](capturas/prototipo/favoritos.png)
+![Prototipo de favoritos](capturas/prototipo/Favoritos.png)
 #### Inicio en Modo Oscuro
-![Prototipo de inicio en modo oscuro](capturas/prototipo/iniciooscuro.png)
+![Prototipo de inicio en modo oscuro](capturas/prototipo/InicioOscuro.png)
 #### Detalle de producto en modo oscuro
-![Prototipo de detalle de producto en modo oscuro](capturas/prototipo/detallesoscuro.png)
+![Prototipo de detalle de producto en modo oscuro](capturas/prototipo/DetallesOscuro.png)
 
 ## 4. Validación y pruebas
 ### 4.1 Metodología
@@ -152,16 +187,16 @@ También es importante aclarar que he escogido la opción de Android Grande en l
 * Incluiría animaciones de Smart Animate avanzadas para simular el estado en elementos como los corazones en favoritos o transiciones entre pantallas
 
 ## 6. Referencias bibliográficas              (mín. 4, APA 7, exportadas desde Zotero)
-GOCCO - Valoraciones y reseñas. (n.d.). App Store. Retrieved October 4, 2026, from https://apps.apple.com/es/app/gocco/id1178614713?see-all=reviews&platform=iphone
+App Store. (2001, 10 julio). GOCCO - Valoraciones y reseñas - App Store. App Store. https://apps.apple.com/es/app/gocco/id1178614713?see-all=reviews&platform=iphone
 
-Opiniones sobre boboli.es/es: Lee las 4073 valoraciones sobre boboli.es/es. (n.d.). Nota total: Excelente para boboli.es/es. Retrieved October 4, 2026, from https://www.trustedshops.es/evaluacion/info_X32A5CA30C0352BA411CF5B403189FF1D.html?stars=3
+Trusted Shops. (2026, 14 agosto). Opiniones sobre boboli.es/es: Lee las 4044 valoraciones sobre boboli.es/es. Nota Total: Excelente Para boboli.es/es. https://www.trustedshops.es/evaluacion/info_X32A5CA30C0352BA411CF5B403189FF1D.html?stars=3
 
-Tienda Online Boboli. (n.d.). Boboli.es. Retrieved October 4, 2026, from https://www.boboli.es/es/
+Boboli. (s. f.). Tienda Online Boboli | Ropa Infantil con Diseño y Calidad. https://www.boboli.es/es/
 
-Trustindex. (n.d.). Patpat reviews. Trustindex.Io. Retrieved October 4, 2026, from https://www.trustindex.io/reviews/eur.patpat.com
+Trustindex. (2026, 19 mayo). PatPat Reviews 2026 | Trustindex.io. Trustindex.io. https://www.trustindex.io/reviews/eur.patpat.com
 
-(N.d.). Patpat.com. Retrieved October 4, 2026, from https://www.patpat.com/es/products/christmas-family-matching-long-sleeves-very-merry-green-tops-allover-pattern-pants-pajamas-sets-flame-resistant-mediumspringgreen
+Productos de PatPat. (s. f.). PatPat. https://www.patpat.com/es/products/christmas-family-matching-long-sleeves-very-merry-green-tops-allover-pattern-pants-pajamas-sets-flame-resistant-mediumspringgreen
 
-Grau, B. (2024, mayo 13). ¿Por qué es importante el diseño centrado en el usuario: cómo mejorar su experiencia en aplicaciones y sitios web? ciclick · web solutions. https://es.ciclick.net/importancia-diseno-centrado-en-el-usuario/
+Grau, B. (2024, 17 mayo). ¿Por qué es importante el diseño centrado en el usuario: cómo mejorar su experiencia en aplicaciones y sitios web? - ciclick · web solutions. Ciclick · Web Solutions. https://es.ciclick.net/importancia-diseno-centrado-en-el-usuario/
 
 ## Palabra del día: 29
